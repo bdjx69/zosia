@@ -162,7 +162,9 @@ def page_final():
     plt.close(fig)
 
     st.write(f"Wszystkiego najlepszego, {NAME}. Kolejny rok twojego życia a ja nadal"
-             "mam zaszczyt cie ragebaitowac, troche jak pochodna i e ∎")
+             "mam zaszczyt cie ragebaitowac, troche jak pochodna i")
+    st.latex(r"\exp(x)")
+    st.write(f"QED.")
     st.balloons()
 
 pages = [page_heart, page_bouncy, page_message, page_final]
