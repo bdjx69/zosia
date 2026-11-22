@@ -163,7 +163,7 @@ def page_final():
 
     st.write(f"Wszystkiego najlepszego, {NAME}. Kolejny rok twojego życia a ja nadal"
              "mam zaszczyt cie ragebaitowac, troche jak pochodna i")
-    st.latex(r"e^x")
+    st.latex("e^x")
     st.write(f"QED.")
     st.balloons()
 
