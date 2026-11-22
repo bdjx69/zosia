@@ -77,7 +77,8 @@ def page_heart():
     st.header("Urodzinowa funkcja")     
     st.latex(r"x(t)=16\sin^3 t,\quad y(t)=13\cos t-5\cos 2t-2\cos 3t-\cos 4t")
     st.write("Każdy punkt na niej jest dokładnie w miejscu na którym powinien być, troche jak ty w moich objęciach") 
-    st.image(heart_gif())
+    left, middle, right = st.columns([1, 4, 1])
+    middle.image(heart_gif())
 
 
 def page_bouncy():
@@ -144,7 +145,8 @@ def page_message():
     st.latex(r"\mathrm{I}:\ x=-7,\ |y|\le 3")
     st.latex(r"\heartsuit:\ (x,y)=\left(0.18\,x(t),\ 0.18\,y(t)+0.3\right)")
     st.latex(r"\mathrm{U}:\ y=(x-7)^2-3,\ |y|\le 3")
-    st.image(message_gif())
+    left, middle, right = st.columns([1, 4, 1])
+    middle.image(message_gif())
     st.markdown("## I ❤️ U")
 
 def page_final():
