@@ -162,7 +162,7 @@ def page_final():
     plt.close(fig)
 
     st.write(f"Wszystkiego najlepszego, {NAME}. Kolejny rok twojego życia a ja nadal"
-             "mam zaszczyt cie ragebaitowac, troche jak pochodna i")
+             "mam zaszczyt cie (czasami, bo co za duzo to nie zdrowo) ragebaitowac, troche jak pochodna i")
     st.latex("e^x")
     st.write(f"QED.")
     st.balloons()
